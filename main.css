@@ -73,6 +73,10 @@ body
     width: 33.33%;
     text-align: center;
 }
+.footer .left a
+{
+    color:#66ffff;
+}
 .footer .middle
 {
     width: 33.33%;
