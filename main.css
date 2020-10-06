@@ -9,7 +9,7 @@ html,
 body
 {
     height: 100vw;
-    background-color: lightyellow;
+    background-color: #E3AFBC;
 }
 .page-wrapper
 {
@@ -19,13 +19,13 @@ body
 .header
 {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #343a40;
     padding: 10px 10px;
 }
 .header a
 {
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -43,20 +43,25 @@ body
     background-color: dodgerblue;
     color: white;
 }
-.footer .main-content
-{
-    width: 100%;
-    display: flex;
-    min-height: 100%;
-}
 .footer
 {
     width: 100%;
     display: block;
     background-color: #18181a;
     overflow: hidden;
-    height: 200px;
+    height: 230px;
     color: white;
+}
+.footer h2
+{
+    margin-top: 7px;
+    color:#db641a;
+}
+.footer .main-content
+{
+    width: 100%;
+    display: flex;
+    min-height: 100%;
 }
 .footer .footer-bottom
 {
@@ -70,6 +75,8 @@ body
 }
 .footer .left
 {
+    display: flex;
+    flex-direction: column;
     width: 33.33%;
     text-align: center;
 }
@@ -86,4 +93,63 @@ body
 {
     width: 33.33%;
     text-align: center;
+}
+.footer .text
+{
+    margin:3px;
+    color:#c2bbc9;
+}
+.footer .right h2
+{
+    margin-bottom: 10px;
+}
+
+.footer .right .email input
+{
+    background: none;
+    height: 20px;
+    border: 1px solid #57c43f;
+    border-radius: 5px;
+    padding: 3px;
+    outline: none;
+    color: white;
+}
+.footer .right .mssg
+{
+    margin-top: 12px;
+}
+.footer .right .mssg textarea
+{
+    width: 171px;
+    height: 59px;
+    resize: none;
+    background: none;
+    border: 1px solid #57c43f;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+    color: white;
+}
+.footer .right .btn button
+{
+    margin-top: 8px;
+    background: none;
+    width: 171px;
+    height: 20px;
+    color: #c2bbc9;
+    border: 1px solid #57c43f;
+    border-radius: 10px;
+    outline: none;
+}
+.footer .right .email input:focus
+{
+    border: 1px solid #146eb8;
+}
+.footer .right .mssg textarea:focus
+{
+    border: 1px solid #146eb8;
+}
+.footer .right .btn button:focus
+{
+    border: 1px solid #146eb8;
 }
